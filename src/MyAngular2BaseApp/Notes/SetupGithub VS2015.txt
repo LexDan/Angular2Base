@@ -1,0 +1,19 @@
+﻿--------------------------------------------------------
+5/27/207
+--------------------------------------------------------
+0) Create repository for this project inside Github in preparation
+1) Switch to Team Explorer click Home icon at top
+2) Click Settings
+3) Repository Settings:
+	a) Check Override global user name and email settings.
+	b) User Name to Github 
+	c) Email Address to Github
+	d) At bottom under Remotes pane click edit to Popup window
+		1) Uncheck: Push matches fetch
+		2) In the Push text box place the your target github URL obtained from the Remote Repo created in Github
+		3) Click Save to close window
+	e) Click the Update button in the middle under User Name & Email
+4) Click Home icon top
+5) Click Changes and enter the commit message
+6) Click the now enabled Commit All button.
+7) Then synch and Push
