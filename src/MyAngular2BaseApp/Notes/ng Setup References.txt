@@ -1,0 +1,11 @@
+﻿---------------------------------
+5/19/2016
+---------------------------------
+http://blog.nbellocam.me/2016/03/14/asp-net-core-and-angular-2/
+https://github.com/nbellocam/Angular2ASPNETCoreBaseApp
+http://blog.nbellocam.me/2016/03/21/routing-angular-2-asp-net-core/
+https://github.com/nbellocam/Angular2ASPNETCoreBaseApp/tree/routing-sample
+http://blog.nbellocam.me/2016/03/23/angular-2-http-asp-net-core-apis/
+https://github.com/nbellocam/Angular2ASPNETCoreBaseApp/tree/http-sample
+https://github.com/nbellocam/Angular2ASPNETCoreBaseApp/tree/full-sample
+-------------------------------------

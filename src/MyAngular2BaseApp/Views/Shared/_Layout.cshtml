@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - MyAngular2BaseApp</title>
+    <title>@ViewData["Title"] - Angular2Base</title>
+    <base href="/" />
 
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -24,6 +25,8 @@
         <script src="~/lib/npmlibs/systemjs/system.src.js"></script>
         <script src="~/lib/npmlibs/rxjs/Rx.js"></script>
         <script src="~/lib/npmlibs/angular2/angular2.js"></script>
+        <script src="~/lib/npmlibs/angular2/router.dev.js"></script>
+        <script src="~/lib/npmlibs/angular2/http.dev.js"></script>
     </environment>
 
     <environment names="Staging,Production">
@@ -34,6 +37,8 @@
         <script src="~/lib/npmlibs/systemjs/system.src.js"></script>
         <script src="~/lib/npmlibs/rxjs/Rx.min.js"></script>
         <script src="~/lib/npmlibs/angular2/angular2.min.js"></script>
+        <script src="~/lib/npmlibs/angular2/router.min.js"></script>
+        <script src="~/lib/npmlibs/angular2/http.min.js"></script>
     </environment>
 </head>
 <body>
@@ -46,7 +51,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-controller="Home" asp-action="Index" class="navbar-brand">MyAngular2BaseApp</a>
+                <a asp-controller="Home" asp-action="Index" class="navbar-brand">Angular2Base</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -59,7 +64,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2016 - MyAngular2BaseApp</p>
+            <p>&copy; 2016 - Angular2Base</p>
         </footer>
     </div>
 

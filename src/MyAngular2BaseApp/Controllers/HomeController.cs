@@ -1,4 +1,4 @@
-﻿namespace MyAngular2BaseApp.Controllers
+﻿namespace Angular2Base.Controllers
 {
     using Microsoft.AspNet.Mvc;
 
